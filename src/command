@@ -1,0 +1,4 @@
+#!/usr/bin/env php
+<?php
+require __DIR__ . '/Command.php';
+exit(Command::lint(empty($argv[1]) ?  '.'  : $argv[1]));

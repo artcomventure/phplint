@@ -1,0 +1,19 @@
+{
+    "name": "artcomventure/phplint",
+    "version": "1.0.1",
+    "description": "Recursive PHP linter",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7 || ^8"
+    },
+    "require-dev": {
+        "humbug/box": "^3"
+    }
+}
